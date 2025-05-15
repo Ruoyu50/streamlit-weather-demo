@@ -10,8 +10,6 @@ cities = [
     'Cairo', 'Lagos', 'Mumbai'
 ]
 
-# st.write("✅ App 已启动！")
-
 st.title("Asking Weather App")
 
 st.header("Check the weather by city")
