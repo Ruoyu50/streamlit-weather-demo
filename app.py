@@ -4,14 +4,13 @@ import requests
 API_KEY = 'bc0dffe988a5874f093f027fbf71411f'
 
 cities = [
-    'Beijing', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Chengdu', 'Chongqing',
-    'Tianjin', 'Hangzhou', 'Nanjing', 'Wuhan', "Xi'an", 'Suzhou', 'Qingdao',
-    'Dalian', 'Zhengzhou', 'Shenyang', 'Jinan', 'Changsha', 'Fuzhou', 'Xiamen',
-    'Harbin', 'Nanning', 'Kunming', 'Hefei', 'Taiyuan', 'Nanchang', 'Guiyang',
-    'Lanzhou', 'Hohhot', 'Urumqi', 'Yinchuan', 'Haikou', 'Lhasa', 'Macau'
+    'New York', 'London', 'Paris', 'Tokyo', 'Los Angeles', 'Chicago', 'Toronto', 'Berlin', 'Madrid', 'Rome',
+    'Sydney', 'Melbourne', 'Moscow', 'Dubai', 'Singapore', 'Seoul', 'Bangkok', 'Hong Kong', 'Buenos Aires',
+    'Cape Town', 'Mexico City', 'Istanbul', 'Amsterdam', 'Vienna', 'Barcelona', 'Lisbon', 'Vancouver',
+    'Cairo', 'Lagos', 'Mumbai'
 ]
 
-st.write("✅ App 已启动！")
+# st.write("✅ App 已启动！")
 
 st.title("Asking Weather App")
 
